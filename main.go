@@ -288,6 +288,8 @@ func main() {
 
 	endCh := make(chan struct{})
 
+	os.Mkdir(*outPath, 0755)
+
 	for i, mod := range file.Files {
 		log("File %v Download started", i+1)
 		printPercentage(0, 100, false)
