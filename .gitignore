@@ -1,0 +1,4 @@
+mods/
+dist/
+manifest.json
+*.log
