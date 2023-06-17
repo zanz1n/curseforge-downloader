@@ -1,4 +1,4 @@
-module github.com/zanz1n/sourceforge-downloader
+module github.com/zanz1n/curseforge-downloader
 
 go 1.20
 
